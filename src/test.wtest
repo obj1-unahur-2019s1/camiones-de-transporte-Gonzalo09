@@ -1,0 +1,13 @@
+import camion.*
+import cosas.*
+
+test "testX" {
+
+	assert.equals(500, knightRider.peso())
+	assert.equals(800, bumblebee.peso())
+	paqueteDeLadrillos.cantidadDeLadrillos(10)
+	assert.equals(20, paqueteDeLadrillos.peso())
+	arenaAGranel.pesoNuevo(300)
+	assert.equals(300, arenaAGranel.peso())
+	assert.equals(300, bateriaAntiaerea.peso())
+}
