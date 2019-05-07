@@ -11,7 +11,7 @@ object bumblebee {
 	method transformar() { transformadoEnAuto = not transformadoEnAuto }
 }
 
-object paqueteDeLadrillos {
+class PaqueteDeLadrillos {
 	var cantidad = 0
 	method cantidadDeLadrillos(ladrillos) {cantidad = ladrillos}
 	method peso() { return 2*cantidad }
@@ -45,7 +45,7 @@ object bateriaAntiaerea {
 	}
 }
 
-object contenedorPortuario { //sin terminar
+object contenedorPortuario {
 	var cosas = []
 	
 	method cargar(unaCosa) {
@@ -68,10 +68,4 @@ object contenedorPortuario { //sin terminar
 		}
 	}
 }
-
-
-
-
-
-
 
